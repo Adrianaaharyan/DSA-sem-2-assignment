@@ -1,0 +1,58 @@
+Correctness Check:
+Insertion: [1, 2, 5, 5, 6, 9]
+Merge: [1, 2, 5, 5, 6, 9]
+Quick: [1, 2, 5, 5, 6, 9]
+
+Performance Results (in ms):
+
+
+--- Size: 1000 ---
+
+Random Data:
+Insertion Sort: 19.37 ms
+Merge Sort: 1.48 ms
+Quick Sort: 1.23 ms
+
+Sorted Data:
+Insertion Sort: 0.14 ms
+Merge Sort: 1.11 ms
+Quick Sort: 2.33 ms
+
+Reverse Data:
+Insertion Sort: 37.87 ms
+Merge Sort: 1.20 ms
+Quick Sort: 1.17 ms
+
+--- Size: 5000 ---
+
+Random Data:
+Insertion Sort: 556.46 ms
+Merge Sort: 10.38 ms
+Quick Sort: 7.63 ms
+
+Sorted Data:
+Insertion Sort: 0.70 ms
+Merge Sort: 6.97 ms
+Quick Sort: 10.07 ms
+
+Reverse Data:
+Insertion Sort: 1094.43 ms
+Merge Sort: 6.22 ms
+Quick Sort: 8.74 ms
+
+--- Size: 10000 ---
+
+Random Data:
+Insertion Sort: 2183.20 ms
+Merge Sort: 23.14 ms
+Quick Sort: 15.84 ms
+
+Sorted Data:
+Insertion Sort: 0.99 ms
+Merge Sort: 14.30 ms
+Quick Sort: 16.75 ms
+
+Reverse Data:
+Insertion Sort: 4382.21 ms
+Merge Sort: 16.34 ms
+Quick Sort: 17.41 ms
